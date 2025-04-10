@@ -16,7 +16,9 @@ export default function Resume() {
           <div className="contact-info mb-6">
             <div className="flex items-start mb-2">
               <Mail className="w-4 h-4 mr-2 text-gray-600 mt-0.5 flex-shrink-0" />
-              <span className="text-sm">ya.hamadouche@gmail.com</span>
+              <span className="text-sm">
+                <a href="mailto:ya.hamadouche@gmail.com">ya.hamadouche@gmail.com</a>
+              </span>
             </div>
             <div className="flex items-start mb-2">
               <MapPin className="w-4 h-4 mr-2 text-gray-600 mt-0.5 flex-shrink-0" />
@@ -181,7 +183,7 @@ export default function Resume() {
         <div className="p-6 md:w-[70%]">
           <div className="header mb-8">
             <h2 className="text-xl font-bold text-gray-800 mb-4">
-              APPRENTI EN L3 INFO - UNIVERSITÉ GUSTAVE EIFFEL - SEPT. 2025
+              APPRENTI EN L3 INFORMATIQUE - UNIVERSITÉ GUSTAVE EIFFEL - SEPT. 2025
             </h2>
             <h1 className="text-2xl font-extrabold uppercase mb-1 tracking-wide">
               HAMADOUCHE YACINE
@@ -197,7 +199,7 @@ export default function Resume() {
 
           <div className="education mb-8">
             <h2 className="text-base font-bold uppercase mb-4 border-b border-gray-300 pb-1 tracking-wide">
-              Diplômes et formations
+              Formations
             </h2>
 
             <div className="mb-6">
@@ -282,12 +284,11 @@ export default function Resume() {
               </div>
               <ul className="text-sm list-none ml-0">
                 <li className="ml-4 before:content-['-'] before:mr-2">
-                  Organisation d'événements pour les étudiants (dont plusieurs
-                  ayant rassemblé plus de 200 participants).
+                  Organisation d'événements pour les étudiants (soirées, culturelles, sportives, etc.)
                 </li>
                 <li className="ml-4 before:content-['-'] before:mr-2">
                   Participation à des réunions pour discuter de l'organisation
-                  et de la gestion de budget
+                  et de la gestion du budget
                 </li>
                 <li className="ml-4 before:content-['-'] before:mr-2">
                   Collaboration avec d'autres associations pour organiser des
@@ -312,10 +313,6 @@ export default function Resume() {
                 <li className="ml-4 before:content-['-'] before:mr-2">
                   Collaboration avec les habitants pour recueillir leurs besoins
                   et suggestions.
-                </li>
-                <li className="ml-4 before:content-['-'] before:mr-2">
-                  Mise en place de mesures pour améliorer la qualité de vie des
-                  citoyens.
                 </li>
                 <li className="ml-4 before:content-['-'] before:mr-2">
                   Organisation d'événements à échelle communale (dont plusieurs
