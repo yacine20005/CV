@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 245, 245, 245;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: "Calibri", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  line-height: 1.4;
+}
+
+.resume-container {
+  min-height: 297mm;
+  width: 210mm;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+  body {
+    background: white;
+  }
+
+  .resume-container {
+    box-shadow: none;
+    margin: 0;
+    width: 100%;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}
