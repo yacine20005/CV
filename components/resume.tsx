@@ -53,10 +53,6 @@ export default function Resume() {
                 <span className="text-sm">Bry-sur-Marne (94360)</span>
               </div>
               <div className="flex items-start mb-2">
-                <Flag className="w-4 h-4 mr-2 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span className="text-sm">Français</span>
-              </div>
-              <div className="flex items-start mb-2">
                 <Phone className="w-4 h-4 mr-2 text-blue-600 mt-0.5 flex-shrink-0" />
                 <span className="text-sm">07 69 60 00 70</span>
               </div>
@@ -80,7 +76,7 @@ export default function Resume() {
               </div>
               <div className="mb-1.5">
                 <div className="flex justify-between">
-                  <span className="font-medium text-sm">Javascript</span>
+                  <span className="font-medium text-sm">JavaScript</span>
                   <span className="text-xs text-blue-600">Intermédiaire</span>
                 </div>
               </div>
@@ -92,17 +88,13 @@ export default function Resume() {
               </div>
               <div className="mb-1.5">
                 <div className="flex justify-between">
-                  <span className="font-medium text-sm">
-                    PostgreSQL (base de données)
-                  </span>
+                  <span className="font-medium text-sm">PostgreSQL</span>
                   <span className="text-xs text-blue-600">Intermédiaire</span>
                 </div>
               </div>
               <div className="mb-1.5">
                 <div className="flex justify-between">
-                  <span className="font-medium text-sm">
-                    Flask (framework web)
-                  </span>
+                  <span className="font-medium text-sm">Flask</span>
                   <span className="text-xs text-blue-600">Intermédiaire</span>
                 </div>
               </div>
@@ -222,7 +214,7 @@ export default function Resume() {
 
           {/* Right Column */}
           <div className="p-6 md:w-[70%]">
-            <div className="header mb-8">
+            <div className="header mb-4">
               <h2 className="text-xl font-bold text-blue-700 mb-4">
                 APPRENTI EN L3 INFORMATIQUE - UNIVERSITÉ GUSTAVE EIFFEL - SEPT.
                 2025
@@ -230,7 +222,7 @@ export default function Resume() {
               <h1 className="text-2xl font-extrabold uppercase mb-1 tracking-wide text-blue-800">
                 HAMADOUCHE YACINE
               </h1>
-              <p className="text-sm leading-relaxed">
+              <p className="text-sm leading-tight">
                 Passionné par l'innovation technologique et doté d'un fort
                 esprit d'équipe, je recherche une alternance pour mettre à
                 profit mes acquis et avoir un impact concret en entreprise.
@@ -239,12 +231,12 @@ export default function Resume() {
               </p>
             </div>
 
-            <div className="education mb-8">
+            <div className="education mb-4">
               <h2 className="text-base font-bold uppercase mb-4 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Formations
               </h2>
 
-              <div className="mb-6">
+              <div className="mb-4">
                 <div className="flex justify-between mb-1">
                   <h3 className="font-semibold text-sm text-blue-700">
                     Licence Mathématiques/Informatique
@@ -256,6 +248,10 @@ export default function Resume() {
                 <div className="text-sm mb-2 font-medium">
                   Université Gustave Eiffel - Champs-sur-Marne
                 </div>
+                <div className="text-xs mb-1 italic">Projets académiques</div>
+                <div className="text-sm mb-2 ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <span className="font-medium">Nuage</span> – Plateforme de gestion de jeux vidéo (Python/Flask, PostgreSQL, HTML/CSS)
+                </div>
               </div>
 
               <div>
@@ -263,7 +259,7 @@ export default function Resume() {
                   <h3 className="font-semibold text-sm text-blue-700">
                     Baccalauréat général avec spécialités
                     <br />
-                    Mathématiques et informatique
+                    mathématiques et informatique
                   </h3>
                   <span className="text-xs text-blue-600">
                     De septembre 2020 à juillet 2023
@@ -274,13 +270,12 @@ export default function Resume() {
                 </div>
                 <div className="text-xs mb-1 italic">Niveau</div>
                 <div className="text-sm mb-2 ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                  Mention Bien avec 20/20 en Informatique et 15/20 en
-                  Mathématiques
+                  Mention Bien (20/20 en informatique, 15/20 en mathématiques)
                 </div>
               </div>
             </div>
 
-            <div className="experience mb-8">
+            <div className="experience mb-4">
               <h2 className="text-base font-bold uppercase mb-4 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Expériences professionnelles
               </h2>
@@ -297,7 +292,10 @@ export default function Resume() {
                 <div className="text-sm mb-2 font-medium">Freelance</div>
                 <ul className="text-sm list-none ml-0">
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                    Conception et déploiement de sites web pour plusieurs assos
+                    <span className="font-medium">Aogiri</span> – Site web pour une association esport (Next.js, TypeScript, Tailwind CSS, Sanity CMS)
+                  </li>
+                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                    Conception et déploiement de sites web pour plusieurs associations
                     ou entreprises.
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
@@ -311,7 +309,7 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="associations">
+            <div className="associations mb-4">
               <h2 className="text-base font-bold uppercase mb-4 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Expériences associatives
               </h2>
@@ -355,7 +353,7 @@ export default function Resume() {
                     De septembre 2019 à décembre 2023
                   </span>
                 </div>
-                <div className="text-sm mb-2 font-medium">Bry-sur-marne</div>
+                <div className="text-sm mb-2 font-medium">Bry-sur-Marne</div>
                 <ul className="text-sm list-none ml-0">
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
                     Collaboration avec les habitants pour recueillir leurs
