@@ -36,7 +36,7 @@ export default function Resume() {
         <div className="flex flex-col md:flex-row relative">
           {/* Colonne gauche - le contenu seulement, le fond est géré par la div absolue */}
           <div className="p-6 md:w-[30%] relative z-10">
-            <div className="contact-info mb-6">
+            <div className="contact-info mb-4">
               <div className="flex items-start mb-2">
                 <Mail className="w-4 h-4 mr-2 text-blue-600 mt-0.5 flex-shrink-0" />
                 <span className="text-sm">
@@ -58,10 +58,15 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="skills mb-6">
+            <div className="skills mb-4">
               <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Compétences
               </h2>
+
+              {/* Langages de programmation */}
+              <h3 className="text-sm font-medium text-blue-600 mb-1.5 mt-2">
+                Langages de programmation
+              </h3>
               <div className="mb-1.5">
                 <div className="flex justify-between">
                   <span className="font-medium text-sm">Python</span>
@@ -82,13 +87,18 @@ export default function Resume() {
               </div>
               <div className="mb-1.5">
                 <div className="flex justify-between">
-                  <span className="font-medium text-sm">HTML / CSS</span>
-                  <span className="text-xs text-blue-600">Intermédiaire</span>
+                  <span className="font-medium text-sm">TypeScript</span>
+                  <span className="text-xs text-blue-500">Débutant</span>
                 </div>
               </div>
+
+              {/* Technologies web */}
+              <h3 className="text-sm font-medium text-blue-600 mb-1.5 mt-3">
+                Technologies web
+              </h3>
               <div className="mb-1.5">
                 <div className="flex justify-between">
-                  <span className="font-medium text-sm">PostgreSQL</span>
+                  <span className="font-medium text-sm">HTML / CSS</span>
                   <span className="text-xs text-blue-600">Intermédiaire</span>
                 </div>
               </div>
@@ -98,6 +108,28 @@ export default function Resume() {
                   <span className="text-xs text-blue-600">Intermédiaire</span>
                 </div>
               </div>
+              <div className="mb-1.5">
+                <div className="flex justify-between">
+                  <span className="font-medium text-sm">React/Next.js</span>
+                  <span className="text-xs text-blue-500">Débutant</span>
+                </div>
+              </div>
+
+              {/* Base de données */}
+              <h3 className="text-sm font-medium text-blue-600 mb-1.5 mt-3">
+                Base de données
+              </h3>
+              <div className="mb-1.5">
+                <div className="flex justify-between">
+                  <span className="font-medium text-sm">PostgreSQL</span>
+                  <span className="text-xs text-blue-600">Intermédiaire</span>
+                </div>
+              </div>
+
+              {/* Outils */}
+              <h3 className="text-sm font-medium text-blue-600 mb-1.5 mt-3">
+                Outils
+              </h3>
               <div className="mb-1.5">
                 <div className="flex justify-between">
                   <span className="font-medium text-sm">Git/GitHub</span>
@@ -112,7 +144,7 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="langues mb-6">
+            <div className="langues mb-4">
               <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Langues
               </h2>
@@ -126,7 +158,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="atouts mb-6">
+            <div className="atouts mb-4">
               <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Atouts
               </h2>
@@ -146,7 +178,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="interets mb-6">
+            <div className="interets mb-4">
               <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Centres d'intérêt
               </h2>
@@ -186,8 +218,7 @@ export default function Resume() {
               <div className="flex items-center mb-2">
                 <Github className="w-4 h-4 mr-2 text-blue-600 flex-shrink-0" />
                 <span className="text-sm">
-                  GitHub
-                  <br />
+                  GitHub{" "}
                   <a
                     href="https://github.com/yacine20005"
                     className="text-blue-600 hover:underline"
@@ -199,8 +230,7 @@ export default function Resume() {
               <div className="flex items-center">
                 <Linkedin className="w-4 h-4 mr-2 text-blue-600 flex-shrink-0" />
                 <span className="text-sm">
-                  LinkedIn
-                  <br />
+                  LinkedIn{" "}
                   <a
                     href="https://www.linkedin.com/in/yacine-hamadouche"
                     className="text-blue-600 hover:underline"
@@ -250,7 +280,8 @@ export default function Resume() {
                 </div>
                 <div className="text-xs mb-1 italic">Projets académiques</div>
                 <div className="text-sm mb-2 ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                  <span className="font-medium">Nuage</span> – Plateforme de gestion de jeux vidéo (Python/Flask, PostgreSQL, HTML/CSS)
+                  <span className="font-medium">Nuage</span> – Plateforme de
+                  gestion de jeux vidéo (Python/Flask, PostgreSQL, HTML/CSS)
                 </div>
               </div>
 
@@ -292,11 +323,13 @@ export default function Resume() {
                 <div className="text-sm mb-2 font-medium">Freelance</div>
                 <ul className="text-sm list-none ml-0">
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                    <span className="font-medium">Aogiri</span> – Site web pour une association esport (Next.js, TypeScript, Tailwind CSS, Sanity CMS)
+                    <span className="font-medium">Aogiri</span> – Site web pour
+                    une association esport (Next.js, TypeScript, Tailwind CSS,
+                    Sanity CMS)
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                    Conception et déploiement de sites web pour plusieurs associations
-                    ou entreprises.
+                    Conception et déploiement de sites web pour plusieurs
+                    associations ou entreprises.
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
                     Collaboration avec des clients pour analyser les besoins et
