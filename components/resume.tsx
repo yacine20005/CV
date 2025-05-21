@@ -10,6 +10,7 @@ import {
   FaFileDownload as Download,
 } from "react-icons/fa";
 import { IoIosMail as Mail } from "react-icons/io";
+import { Badge } from "@/components/ui/badge";
 
 export default function Resume() {
   const handlePrint = () => {
@@ -406,6 +407,13 @@ export default function Resume() {
               </div>
             </div>
           </div>
+        </div>
+        {/* Badge Next.js */}
+        <div className="absolute right-2 bottom-2">
+          <Badge variant="secondary" className="shadow-md">
+            CV réalisé en{" "}
+            <span className="mx-1 font-bold text-blue-600">Next.js</span>
+          </Badge>
         </div>
       </div>
     </div>
