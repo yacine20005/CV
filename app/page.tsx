@@ -1,9 +1,9 @@
-import Resume from "@/components/resume"
+import Resume from "@/components/resume";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className="min-h-screen flex items-center justify-center p-4 bg-gray-100 print:p-0 print:bg-white">
+    <main className="flex min-h-screen flex-col items-center justify-center p-4 md:p-8">
       <Resume />
     </main>
-  )
+  );
 }

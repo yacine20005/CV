@@ -1,16 +1,15 @@
-"use client";
+'use client';
 
 import {
   FaMapPin as MapPin,
   FaPhone as Phone,
-  FaFlag as Flag,
   FaGithub as Github,
   FaLinkedin as Linkedin,
   FaFolder as Folder,
   FaFileDownload as Download,
-} from "react-icons/fa";
-import { IoIosMail as Mail } from "react-icons/io";
-import { Badge } from "@/components/ui/badge";
+} from 'react-icons/fa';
+import { IoIosMail as Mail } from 'react-icons/io';
+import { Badge } from '@/components/ui/badge';
 
 export default function Resume() {
   const handlePrint = () => {
@@ -150,10 +149,10 @@ export default function Resume() {
                 Langues
               </h2>
               <ul className="list-none ml-0">
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Anglais
                 </li>
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Espagnol
                 </li>
               </ul>
@@ -164,16 +163,16 @@ export default function Resume() {
                 Atouts
               </h2>
               <ul className="list-none ml-0">
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Leadership
                 </li>
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Travail d'équipe et collaboration
                 </li>
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Sens de l'organisation
                 </li>
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Adaptabilité
                 </li>
               </ul>
@@ -184,16 +183,16 @@ export default function Resume() {
                 Centres d'intérêt
               </h2>
               <ul className="list-none ml-0">
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Musculation
                 </li>
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Escalade
                 </li>
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Automobile
                 </li>
-                <li className="mb-1 text-sm before:content-['-'] before:mr-2 before:text-blue-500">
+                <li className="mb-1 text-sm before:content-['--'] before:mr-2 before:text-blue-500">
                   Psychologie
                 </li>
               </ul>
@@ -219,7 +218,7 @@ export default function Resume() {
               <div className="flex items-center mb-2">
                 <Github className="w-4 h-4 mr-2 text-blue-600 flex-shrink-0" />
                 <span className="text-sm">
-                  GitHub{" "}
+                  GitHub{' '}
                   <a
                     href="https://github.com/yacine20005"
                     className="text-blue-600 hover:underline"
@@ -231,7 +230,7 @@ export default function Resume() {
               <div className="flex items-center">
                 <Linkedin className="w-4 h-4 mr-2 text-blue-600 flex-shrink-0" />
                 <span className="text-sm">
-                  LinkedIn{" "}
+                  LinkedIn{' '}
                   <a
                     href="https://www.linkedin.com/in/yacine-hamadouche"
                     className="text-blue-600 hover:underline"
@@ -280,7 +279,7 @@ export default function Resume() {
                   Université Gustave Eiffel - Champs-sur-Marne
                 </div>
                 <div className="text-xs mb-1 italic">Projets académiques</div>
-                <div className="text-sm mb-2 ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                <div className="text-sm mb-2 ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                   <span className="font-medium">Nuage</span> – Plateforme de
                   gestion de jeux vidéo (Python/Flask, PostgreSQL, HTML/CSS)
                 </div>
@@ -301,7 +300,7 @@ export default function Resume() {
                   Lycée polyvalent Louis Armand - Nogent-sur-Marne
                 </div>
                 <div className="text-xs mb-1 italic">Niveau</div>
-                <div className="text-sm mb-2 ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                <div className="text-sm mb-2 ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                   Mention Bien (20/20 en informatique, 15/20 en mathématiques)
                 </div>
               </div>
@@ -323,20 +322,20 @@ export default function Resume() {
                 </div>
                 <div className="text-sm mb-2 font-medium">Freelance</div>
                 <ul className="text-sm list-none ml-0">
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     <span className="font-medium">Aogiri</span> – Site web pour
                     une association esport (Next.js, TypeScript, Tailwind CSS,
                     Sanity CMS)
                   </li>
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Conception et déploiement de sites web pour plusieurs
                     associations ou entreprises.
                   </li>
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Collaboration avec des clients pour analyser les besoins et
                     proposer des solutions techniques.
                   </li>
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Gestion de la prospection clientèle.
                   </li>
                 </ul>
@@ -361,15 +360,15 @@ export default function Resume() {
                   Université Gustave Eiffel
                 </div>
                 <ul className="text-sm list-none ml-0">
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Organisation d'événements pour les étudiants (soirées,
                     culturelles, sportives, etc.)
                   </li>
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Participation à des réunions pour discuter de l'organisation
                     et de la gestion du budget
                   </li>
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Collaboration avec d'autres associations pour organiser des
                     événements communs.
                   </li>
@@ -389,18 +388,19 @@ export default function Resume() {
                 </div>
                 <div className="text-sm mb-2 font-medium">Bry-sur-Marne</div>
                 <ul className="text-sm list-none ml-0">
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Collaboration avec les habitants pour recueillir leurs
                     besoins et suggestions.
                   </li>
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Organisation d'événements à échelle communale (dont
                     plusieurs rassemblant 200+ participants).
                   </li>
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--'] before:mr-2 before:text-blue-500">
                     Participation à la mise en place de projets locaux.
                   </li>
-                  <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
+                  <li className="ml-4 before:content-['--
+'] before:mr-2 before:text-blue-500">
                     Présentation de propositions lors d'assemblées plénières.
                   </li>
                 </ul>
@@ -411,7 +411,7 @@ export default function Resume() {
         {/* Badge Next.js */}
         <div className="absolute right-2 bottom-2">
           <Badge variant="secondary" className="shadow-md">
-            CV réalisé en{" "}
+            CV réalisé en{' '}
             <span className="mx-1 font-bold text-blue-600">Next.js</span>
           </Badge>
         </div>

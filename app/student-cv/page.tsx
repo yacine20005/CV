@@ -1,4 +1,4 @@
-import { StudentResume } from "@/components/student-resume";
+import StudentResume from "@/components/student-resume";
 
 export default function StudentCVPage() {
   return (
