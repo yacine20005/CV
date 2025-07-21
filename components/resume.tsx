@@ -29,14 +29,14 @@ export default function Resume() {
       </button>
 
       {/* Conteneur principal avec positionnement absolu pour le fond bleu */}
-      <div className="resume-container bg-white max-w-4xl w-full mx-auto print:shadow-none relative">
+      <div className="resume-container bg-white max-w-4xl w-full mx-auto print:shadow-none relative overflow-hidden">
         {/* Fond bleu de la colonne gauche en position absolue pour couvrir toute la hauteur */}
-        <div className="absolute top-0 left-0 bottom-0 w-[30%] bg-[#f0f7ff]"></div>
+        <div className="absolute top-0 left-0 h-full w-[30%] bg-[#f0f7ff]"></div>
 
         <div className="flex flex-col md:flex-row relative">
           {/* Colonne gauche - le contenu seulement, le fond est géré par la div absolue */}
-          <div className="p-6 md:w-[30%] relative z-10">
-            <div className="contact-info mb-4">
+          <div className="p-3 md:w-[30%] relative z-10">
+            <div className="contact-info mb-2">
               <div className="flex items-start mb-2">
                 <Mail className="w-4 h-4 mr-2 text-blue-600 mt-0.5 flex-shrink-0" />
                 <span className="text-sm">
@@ -58,8 +58,8 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="skills mb-4">
-              <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
+            <div className="skills mb-2">
+              <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Compétences
               </h2>
 
@@ -144,8 +144,8 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="langues mb-4">
-              <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
+            <div className="langues mb-2">
+              <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Langues
               </h2>
               <ul className="list-none ml-0">
@@ -158,8 +158,8 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="atouts mb-4">
-              <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
+            <div className="atouts mb-2">
+              <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Atouts
               </h2>
               <ul className="list-none ml-0">
@@ -178,8 +178,8 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="interets mb-4">
-              <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
+            <div className="interets mb-2">
+              <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Centres d'intérêt
               </h2>
               <ul className="list-none ml-0">
@@ -199,7 +199,7 @@ export default function Resume() {
             </div>
 
             <div className="reseaux">
-              <h2 className="text-base font-bold uppercase mb-3 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
+              <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Réseaux sociaux
               </h2>
               <div className="flex items-center mb-2">
@@ -227,7 +227,7 @@ export default function Resume() {
                   </a>
                 </span>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center mb-2">
                 <Linkedin className="w-4 h-4 mr-2 text-blue-600 flex-shrink-0" />
                 <span className="text-sm">
                   LinkedIn{" "}
@@ -239,15 +239,23 @@ export default function Resume() {
                   </a>
                 </span>
               </div>
+              <div className="mt-3 pt-2 border-t border-blue-300 bg-blue-50/30 px-2 py-1 rounded-sm">
+                <div className="flex items-center text-xs">
+                  <span className="text-blue-600 mr-1.5">✦</span>
+                  <span className="text-blue-700 font-medium">
+                    CV développé avec Next.js
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Right Column */}
-          <div className="p-6 md:w-[70%]">
-            <div className="header mb-4">
-              <h2 className="text-xl font-bold text-blue-700 mb-4">
-                APPRENTI EN L3 INFORMATIQUE - UNIVERSITÉ GUSTAVE EIFFEL - SEPT.
-                2025
+          <div className="p-3 md:w-[70%]">
+            <div className="header mb-3">
+              <h2 className="text-xl font-bold text-blue-700 mb-3">
+                APPRENTI EN L3 INFORMATIQUE - UNIVERSITÉ GUSTAVE EIFFEL -
+                SEPTEMBRE 2025
               </h2>
               <h1 className="text-2xl font-extrabold uppercase mb-1 tracking-wide text-blue-800">
                 HAMADOUCHE YACINE
@@ -261,12 +269,12 @@ export default function Resume() {
               </p>
             </div>
 
-            <div className="education mb-4">
-              <h2 className="text-base font-bold uppercase mb-4 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
+            <div className="education mb-2">
+              <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Formations
               </h2>
 
-              <div className="mb-4">
+              <div className="mb-3">
                 <div className="flex justify-between mb-1">
                   <h3 className="font-semibold text-sm text-blue-700">
                     Licence Mathématiques/Informatique
@@ -306,12 +314,12 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="experience mb-4">
-              <h2 className="text-base font-bold uppercase mb-4 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
+            <div className="experience mb-2">
+              <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Expériences professionnelles
               </h2>
 
-              <div className="mb-6">
+              <div className="mb-2">
                 <div className="flex justify-between mb-1">
                   <h3 className="font-semibold text-sm text-blue-700">
                     Auto-entrepreneur
@@ -320,7 +328,6 @@ export default function Resume() {
                     Depuis juin 2023
                   </span>
                 </div>
-                <div className="text-sm mb-2 font-medium">Freelance</div>
                 <ul className="text-sm list-none ml-0">
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
                     <span className="font-medium">Aogiri</span> – Site web pour
@@ -332,7 +339,7 @@ export default function Resume() {
                     associations ou entreprises.
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                    Collaboration avec des clients pour analyser les besoins et
+                    Collaboration avec les clients pour analyser les besoins et
                     proposer des solutions techniques.
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
@@ -342,8 +349,8 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="associations mb-4">
-              <h2 className="text-base font-bold uppercase mb-4 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
+            <div className="associations mb-2">
+              <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Expériences associatives
               </h2>
 
@@ -362,11 +369,11 @@ export default function Resume() {
                 <ul className="text-sm list-none ml-0">
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
                     Organisation d'événements pour les étudiants (soirées,
-                    culturelles, sportives, etc.)
+                    activités culturelles, sportives, etc.)
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
                     Participation à des réunions pour discuter de l'organisation
-                    et de la gestion du budget
+                    et de la gestion du budget.
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
                     Collaboration avec d'autres associations pour organiser des
@@ -375,7 +382,7 @@ export default function Resume() {
                 </ul>
               </div>
 
-              <div className="mb-6"></div>
+              <div className="mb-2"></div>
 
               <div>
                 <div className="flex justify-between mb-1">
@@ -406,13 +413,6 @@ export default function Resume() {
               </div>
             </div>
           </div>
-        </div>
-        {/* Badge Next.js */}
-        <div className="absolute right-2 bottom-2">
-          <Badge variant="secondary" className="shadow-md">
-            CV réalisé en{" "}
-            <span className="mx-1 font-bold text-blue-600">Next.js</span>
-          </Badge>
         </div>
       </div>
     </div>
