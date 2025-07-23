@@ -58,7 +58,7 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="skills mb-2">
+            <div className="skills mb-1">
               <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Compétences
               </h2>
@@ -70,13 +70,13 @@ export default function Resume() {
               <div className="mb-1.5">
                 <div className="flex justify-between">
                   <span className="font-medium text-sm">Python</span>
-                  <span className="text-xs text-blue-700">Avancé</span>
+                  <span className="text-xs text-blue-600">Avancé</span>
                 </div>
               </div>
               <div className="mb-1.5">
                 <div className="flex justify-between">
                   <span className="font-medium text-sm">C</span>
-                  <span className="text-xs text-blue-700">Avancé</span>
+                  <span className="text-xs text-blue-600">Avancé</span>
                 </div>
               </div>
               <div className="mb-1.5">
@@ -88,7 +88,7 @@ export default function Resume() {
               <div className="mb-1.5">
                 <div className="flex justify-between">
                   <span className="font-medium text-sm">TypeScript</span>
-                  <span className="text-xs text-blue-500">Débutant</span>
+                  <span className="text-xs text-blue-600">Débutant</span>
                 </div>
               </div>
 
@@ -104,14 +104,16 @@ export default function Resume() {
               </div>
               <div className="mb-1.5">
                 <div className="flex justify-between">
-                  <span className="font-medium text-sm">Flask</span>
+                  <span className="font-medium text-sm">Flask / FastAPI</span>
                   <span className="text-xs text-blue-600">Intermédiaire</span>
                 </div>
               </div>
               <div className="mb-1.5">
                 <div className="flex justify-between">
-                  <span className="font-medium text-sm">React/Next.js</span>
-                  <span className="text-xs text-blue-500">Débutant</span>
+                  <span className="font-medium text-sm">
+                    React - Next.js / Expo
+                  </span>
+                  <span className="text-xs text-blue-600">Débutant</span>
                 </div>
               </div>
 
@@ -125,6 +127,12 @@ export default function Resume() {
                   <span className="text-xs text-blue-600">Intermédiaire</span>
                 </div>
               </div>
+              <div className="mb-1.5">
+                <div className="flex justify-between">
+                  <span className="font-medium text-sm">SQLite</span>
+                  <span className="text-xs text-blue-600">Débutant</span>
+                </div>
+              </div>
 
               {/* Outils */}
               <h3 className="text-sm font-medium text-blue-600 mb-1.5 mt-3">
@@ -133,18 +141,24 @@ export default function Resume() {
               <div className="mb-1.5">
                 <div className="flex justify-between">
                   <span className="font-medium text-sm">Git/GitHub</span>
-                  <span className="text-xs text-blue-700">Avancé</span>
+                  <span className="text-xs text-blue-600">Avancé</span>
                 </div>
               </div>
               <div className="mb-1.5">
                 <div className="flex justify-between">
                   <span className="font-medium text-sm">VS Code</span>
-                  <span className="text-xs text-blue-700">Avancé</span>
+                  <span className="text-xs text-blue-600">Avancé</span>
                 </div>
               </div>
             </div>
+            <div className="mb-1.5">
+              <div className="flex justify-between">
+                <span className="font-medium text-sm">Docker</span>
+                <span className="text-xs text-blue-600">Intermédiaire</span>
+              </div>
+            </div>
 
-            <div className="langues mb-2">
+            <div className="langues mb-1">
               <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Langues
               </h2>
@@ -158,7 +172,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="atouts mb-2">
+            <div className="atouts mb-1">
               <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Atouts
               </h2>
@@ -178,7 +192,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="interets mb-2">
+            <div className="interets mb-1">
               <h2 className="text-base font-bold uppercase mb-2 border-b border-blue-300 pb-1 tracking-wide text-blue-700">
                 Centres d'intérêt
               </h2>
