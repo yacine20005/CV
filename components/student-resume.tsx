@@ -72,13 +72,13 @@ export default function StudentResume() {
                   Travail d'équipe et collaboration
                 </li>
                 <li className="mb-1 before:content-['-'] before:mr-2 before:text-blue-500">
+                  Adaptabilité et proactivité
+                </li>
+                <li className="mb-1 before:content-['-'] before:mr-2 before:text-blue-500">
                   Communication et écoute active
                 </li>
                 <li className="mb-1 before:content-['-'] before:mr-2 before:text-blue-500">
                   Sens de l'organisation
-                </li>
-                <li className="mb-1 before:content-['-'] before:mr-2 before:text-blue-500">
-                  Adaptabilité et proactivité
                 </li>
                 <li className="mb-1 before:content-['-'] before:mr-2 before:text-blue-500">
                   Gestion d'événements
@@ -96,7 +96,10 @@ export default function StudentResume() {
                   Google Workspace (Docs, Sheets)
                 </li>
                 <li className="mb-1 before:content-['-'] before:mr-2 before:text-blue-500">
-                  Notions de développement web
+                  Compétences numériques
+                </li>
+                <li className="mb-1 before:content-['-'] before:mr-2 before:text-blue-500">
+                  Gestion de projets web
                 </li>
                 <li className="mb-1 before:content-['-'] before:mr-2 before:text-blue-500">
                   Gestion et animation des réseaux sociaux
@@ -169,17 +172,20 @@ export default function StudentResume() {
           {/* Colonne droite */}
           <div className="p-4 md:w-[70%]">
             <div className="header mb-4">
-              <h2 className="text-lg font-bold text-blue-700 mb-2">
-              </h2>
               <h1 className="text-2xl font-extrabold uppercase mb-1 tracking-wide text-blue-800">
                 HAMADOUCHE YACINE
               </h1>
+              <h2 className="text-lg font-bold text-blue-700 mb-2">
+                Étudiant en Licence, fiable et polyvalent
+              </h2>
               <p className="text-sm leading-tight">
-                Dynamique et fiable, fort d'une expérience significative en
-                accueil et en organisation d'événements dans un cadre
-                international exigeant. Je souhaite mettre mon sens du service,
-                ma proactivité et ma capacité d'adaptation au profit de votre
-                équipe.
+                Expérience réussie dans l'accueil et l'orientation de milliers
+                de visiteurs internationaux lors des JO de Paris, démontrant une
+                grande fiabilité et une gestion du stress en environnement
+                rapide. Autonome et proactif, j'ai également géré des projets de
+                A à Z en tant qu'auto-entrepreneur. Recherche un poste pour
+                mettre à profit ma capacité d'apprentissage et mon excellent
+                sens du service.
               </p>
             </div>
 
@@ -253,16 +259,16 @@ export default function StudentResume() {
                 </div>
                 <ul className="text-sm list-none ml-0">
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                    Accueillir, informer et orienter des milliers de visiteurs
-                    internationaux.
+                    Gestion de l'accueil, de l'information et de l'orientation
+                    pour des milliers de visiteurs internationaux.
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                    Assurer la fluidité des accès en vérifiant les billets et
-                    accréditations.
+                    Garantie de la fluidité des accès via la vérification
+                    rigoureuse des billets et accréditations.
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                    Collaborer avec les équipes de sécurité pour la gestion des
-                    foules.
+                    Coordination proactive avec les équipes de sécurité pour la
+                    gestion des foules.
                   </li>
                 </ul>
               </div>
@@ -312,8 +318,8 @@ export default function StudentResume() {
                 </div>
                 <ul className="text-sm list-none ml-0">
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
-                    Organisation d'événements pour les étudiants (soirées,
-                    activités culturelles, sportives, etc.).
+                    Co-organisation de 3+ événements (culturels, sportifs) pour
+                    un public de plus de 500 étudiants.
                   </li>
                   <li className="ml-4 before:content-['-'] before:mr-2 before:text-blue-500">
                     Participation à des réunions pour discuter de l'organisation
